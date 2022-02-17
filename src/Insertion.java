@@ -52,11 +52,11 @@ public class Insertion {
             return;
         }
         Node curnode=head;
-        System.out.print(curnode.data+" -> ");
-        while (curnode.next!=null)
+       // System.out.print(curnode.data+" -> ");
+        while (curnode!=null)
         {
-            curnode=curnode.next;
             System.out.print(curnode.data+" -> ");
+            curnode=curnode.next;
         }
         System.out.println("NULL");
     }

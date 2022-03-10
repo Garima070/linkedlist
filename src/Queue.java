@@ -26,7 +26,7 @@ public class Queue {
      }
     public void show()
     {
-        for (int i = front; i <size; i++) {
+        for (int i = front; i <rear; i++) {
             System.out.print(queue[i]+" ");
         }
         System.out.println();

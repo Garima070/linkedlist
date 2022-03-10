@@ -18,6 +18,7 @@ public class stack1 {
         if(isEmpty())
         {
             System.out.println("stack is underflow!!!!!");
+            return -1;
         }
         else {
             top--;
